@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkwarden Bookmark Converter (JS)</title>
+    <!-- Optional: <link rel="stylesheet" href="style.css"> -->
+    <style> /* Basic inline styles for clarity */
+        body { font-family: sans-serif; padding: 20px; }
+        #status { margin-top: 15px; font-weight: bold; }
+        .error { color: red; }
+        .success { color: green; }
+        button { padding: 8px 15px; cursor: pointer; }
+        input[type="file"] { margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Convert Linkwarden JSON to HTML Bookmarks</h1>
+    <p>Select your Linkwarden JSON export file. The conversion happens entirely in your browser.</p>
+
+    <label for="jsonFile">Linkwarden JSON File:</label><br>
+    <input type="file" id="jsonFile" accept=".json"><br>
+
+    <button id="convertButton">Convert and Download</button>
+
+    <div id="status"></div>
+
+    <script src="converter.js"></script>
+</body>
+</html>
