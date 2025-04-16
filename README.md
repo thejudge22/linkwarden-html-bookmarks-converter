@@ -2,7 +2,7 @@
 
 This simple web tool converts a JSON export file from [Linkwarden](https://linkwarden.app/) into a standard Netscape Bookmark HTML file, suitable for importing into browsers or other bookmark managers.
 
-The conversion process happens entirely within your web browser using JavaScript. Your JSON file is **not** uploaded to any server.  I
+The conversion process happens entirely within your web browser using JavaScript. Your JSON file is **not** uploaded to any server. 
 
 ## Features
 
