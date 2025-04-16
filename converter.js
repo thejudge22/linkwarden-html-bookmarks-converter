@@ -1,10 +1,10 @@
 // --- User Provided Collection Data ---
 const USER_COLLECTIONS = {
-    27152: "Summit Utils",
+    27152: "Utils",
     5985: "Account Sites",
     5977: "ChatAI",
     5982: "Arr",
-    5986: "Switch Hacking / ROM Info",
+    5986: "Nintendo Switch Sites",
     5987: "Things to Buy",
     5991: "COH Server",
     5988: "Travel Sites",
