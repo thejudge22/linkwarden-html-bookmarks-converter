@@ -30,7 +30,7 @@ The conversion process happens entirely within your web browser using JavaScript
   ```javascript
   // --- User Provided Collection Data ---
   const USER_COLLECTIONS = {
-      27152: "Summit Utils",
+      27152: "Utils",
       5985: "Account Sites",
       // ... other mappings
       6000: "Unorganized" // Example
